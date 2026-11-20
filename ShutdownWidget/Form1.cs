@@ -223,6 +223,18 @@ namespace ShutdownWidget
             btnStop.Click += BtnStop_Click;
             this.Controls.Add(btnStop);
 
+            // Credit Label
+            var lblCredit = new Label
+            {
+                Text = "Created By Rez Ren",
+                Location = new Point(15, 410),
+                Size = new Size(340, 20),
+                TextAlign = ContentAlignment.MiddleCenter,
+                Font = new Font("Segoe UI", 7.5f, FontStyle.Italic),
+                ForeColor = Color.FromArgb(160, 160, 160)
+            };
+            this.Controls.Add(lblCredit);
+
             // Handle form closing
             this.FormClosing += Form1_FormClosing;
             this.Resize += Form1_Resize;
