@@ -40,7 +40,7 @@ namespace ShutdownWidget
         private void SetupCustomUI()
         {
             this.Text = "Windows Shutdown Timer";
-            this.ClientSize = new Size(370, 420);
+            this.ClientSize = new Size(370, 450);
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.StartPosition = FormStartPosition.CenterScreen;
@@ -195,7 +195,7 @@ namespace ShutdownWidget
             btnStart = new Button
             {
                 Text = "Start Timer",
-                Location = new Point(15, 365),
+                Location = new Point(15, 355),
                 Size = new Size(165, 40),
                 Font = new Font("Segoe UI", 10, FontStyle.Bold),
                 BackColor = Color.FromArgb(0, 120, 215),
@@ -210,7 +210,7 @@ namespace ShutdownWidget
             btnStop = new Button
             {
                 Text = "Cancel",
-                Location = new Point(190, 365),
+                Location = new Point(190, 355),
                 Size = new Size(165, 40),
                 Font = new Font("Segoe UI", 10),
                 BackColor = Color.FromArgb(200, 60, 60),
