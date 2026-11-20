@@ -1,0 +1,23 @@
+# Build outputs
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Publish outputs
+**/publish/
+
+# Installer packages
+ShutdownWidget/InstallerPackage/
+ShutdownWidget/ShutdownTimerWidget-Installer*/
+ShutdownWidget/*.zip
+
+# IDE
+.vs/
+*.csproj.user
+*.suo
+
+# OS
+Thumbs.db
+Desktop.ini
